@@ -23,8 +23,8 @@ license=(
   AGPL3
 )
 depends=(
+  "awk"
   "bash"
-  "sqlite"
 )
 _os="$( \
   uname \
