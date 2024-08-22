@@ -6,8 +6,8 @@
 _offline="false"
 _git="false"
 pkgname=droidvnc-helper
-pkgver=0.0.0.0.0.0.0.0.0.0.0.0.0.1
-_commit="0b7099d8fc0af5329d3c4df59a86c34f6625ef26"
+pkgver=0.0.0.0.0.0.0.0.0.0.0.0.0.1.1
+_commit="8c482ce4aef32daed0161386bf089b9276c0413e"
 pkgrel=1
 _pkgdesc=(
   "Get/set DroidVNC settings."
@@ -70,7 +70,7 @@ _tarname="${pkgname}-${_tag}"
     _sum="d4f4179c6e4ce1702c5fe6af132669e8ec4d0378428f69518f2926b969663a91"
   elif [[ "${_tag_name}" == "commit" ]]; then
     _tar="${_tarname}.zip::${_url}/archive/${_commit}.zip"
-    _sum="46390fff4b51d00b3894b5892500aba06357c9456e1b616065ac4ef156ecd847"
+    _sum="8ea208094dd9c363012745e9f3007b68b991b240d99416f99c46acc0448d5831"
   fi && \
     source+=(
       "${_tar}"
