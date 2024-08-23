@@ -32,7 +32,7 @@ _os="$( \
 [[ "${_os}" != "GNU/Linux" ]] && \
 [[ "${_os}" == "Android" ]] && \
   depends+=(
-    "android-utils"
+    "android-app-utils"
   )
 optdepends=(
 )
