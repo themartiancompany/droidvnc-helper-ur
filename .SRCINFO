@@ -8,6 +8,7 @@ pkgbase = droidvnc-helper
 	checkdepends = shellcheck
 	makedepends = make
 	depends = bash
+	depends = key-gen
 	depends = android-app-utils
 	optdepends = android-remote-camera: uses this to fetch VNC port
 	source = droidvnc-helper-09e67df12756cf3eda5518fb2e70b6997410fabd.zip::https://github.com/themartiancompany/droidvnc-helper/archive/09e67df12756cf3eda5518fb2e70b6997410fabd.zip

@@ -24,6 +24,7 @@ license=(
 )
 depends=(
   "bash"
+  "key-gen"
 )
 _os="$( \
   uname \
