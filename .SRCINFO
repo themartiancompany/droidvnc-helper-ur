@@ -1,6 +1,6 @@
 pkgbase = droidvnc-helper
 	pkgdesc = Get/set DroidVNC settings.
-	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.1
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.1.1
 	pkgrel = 1
 	url = https://github.com/themartiancompany/droidvnc-helper
 	arch = any
@@ -10,8 +10,8 @@ pkgbase = droidvnc-helper
 	depends = bash
 	depends = android-app-utils
 	optdepends = android-remote-camera: uses this to fetch VNC port
-	source = droidvnc-helper-d0e3f4049e781a575bcfdd19143f5b3f69d92d4d.zip::https://github.com/themartiancompany/droidvnc-helper/archive/d0e3f4049e781a575bcfdd19143f5b3f69d92d4d.zip
+	source = droidvnc-helper-09e67df12756cf3eda5518fb2e70b6997410fabd.zip::https://github.com/themartiancompany/droidvnc-helper/archive/09e67df12756cf3eda5518fb2e70b6997410fabd.zip
 	validpgpkeys = 97E989E6CF1D2C7F7A41FF9F95684DBE23D6A3E9
-	sha256sums = 584084c88065e87925b659762f1551d91ff75b58988ef787f39daecc055d70e5
+	sha256sums = 39efaea28d63ca62c900344136d27634d6c5fa8c078cbc6e4eedef81245a7502
 
 pkgname = droidvnc-helper
